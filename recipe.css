@@ -1,0 +1,128 @@
+* {
+    overflow: auto;
+}
+body {
+    background-color: #8BA1BB;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div.content {
+    background-color: white;
+    margin: 60px 10% 80px 10%;
+    padding: 0 30px 30px 30px;
+    max-width: 700px;
+    min-width: 350px;
+    box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.4);
+
+    overflow: visible;
+}
+div.category {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    overflow: visible;
+    display: block;
+}
+p.category {
+    background-color: black;
+    color: white;
+    display: inline-block;
+    margin-top: -200px;
+    margin-bottom: 0px;
+    padding:8px 20px;
+    font-weight: bold;
+    font-size: 16px;
+}
+div.seperator{
+    background-color: gray;
+    height: 1px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+p.description{
+    text-align: center;
+    max-width: 400px;
+    display: inline-block;
+    font-size: 14px;
+}
+.center {
+    text-align: center;
+    width: 100%;
+}
+table.info {
+    position:absolute; bottom:0;
+    width:100%; color: white; background-color: #6C829DB1;
+}
+.mid {
+    position:relative; background-color:red;
+    display: block;
+}
+table.info th {
+   vertical-align: bottom;
+   padding-bottom: 8px;
+   font-size: 16px; 
+}
+table.info td {
+   vertical-align: top;
+   font-size: 14px; 
+
+}
+img.info {
+    display: block;
+    max-height: 400px;
+    object-fit: cover;
+    min-height: 200px;
+    background-color: lightgrey;
+}
+
+div.col {
+    width: 45%;
+}
+div.col h2 {
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: 5px solid #6C829Dbb;
+    padding-bottom: 5px;
+}
+div.col1 {
+    display: inline-block;
+}
+
+div.col2 {
+    background-color: lightcoral;
+    float: right;
+}
+
+div.l1 p{
+    text-align: center;
+    border: 1px solid lightgrey;
+    padding: 10px 0;
+    font-size: 14px;
+    margin: 2px 0 2px 0; 
+}
+table.l2 p.number {
+    background-color: #6C829D;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 50%;
+    padding-top: 5px;
+    margin: 0;
+}
+table.l2 td.l2_step {
+    font-size: 14px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+table.l2 td {
+    vertical-align: top;
+    height: 37px;
+}
